@@ -11,15 +11,7 @@ export default defineConfig({
                 changeOrigin: true,
                 rewrite: (path) => path.replace(/^\/api/, ''), // /api 경로 제거
             },
-          }
-  },
-  resolve: {
-    alias: {
-      stream: 'stream-browserify',
-      https: 'agent-base',
-    },
-  },
-  
-})
+  }
+}})
 
 
